@@ -6,3 +6,69 @@ body{
   background-image: url(../back.jpg);
   background-size: cover;
 }
+
+div{
+  text-align: left;
+  padding: 20px;
+  margin: auto;
+}
+
+h1{
+  border-style: solid ;
+    width: 44%;
+    border: 3px solid black;
+    padding: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+button {
+  
+  background-color: rgba(248, 70, 0, 0.911);
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding : 10px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 44px 0px ;
+}
+
+button:hover {
+  background: rgba(255, 145, 0, 0.904);
+  opacity: 3;
+  transition: all 0.3s;
+}
+
+input{
+  color: blue;
+  
+}
+
+label{
+font-size: 20PX;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  list-style: initial;
+}
+span.warning{
+  color:white;
+  font-size: 19px;
+font-display: bold;
+}
+
+p{
+  font-size: 26px;
+  color: white;
+  border-style: solid;
+  border: 6px solid white;
+  padding: 10px;
+  padding-left: 15px;
+  text-align: center;
+  width: 35%;
+}

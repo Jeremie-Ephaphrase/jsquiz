@@ -61,7 +61,7 @@ var allQuestions = [{
   choices: ["Fruit", "Poison", "Phone", "Acid"],
   correctAnswer: 0
 }, {
-  question: "What city are we in?",
+  question: "Which of the following is a city in South Africa?",
   choices: ["Cape Town", "Paarl", "Moscow", "Berlin"],
   correctAnswer: 0
 }, {
@@ -227,7 +227,7 @@ function Quiz(options) {
       if (correct_answers === 0) {
         result.textContent = "Thank you for taking this quiz! Sorry, but none of your answers were right :( Try again if you want to improve your score.";
       } else {
-        result.textContent = "Thank you for taking this quiz! Your final score is: " + correct_answers + " correct answers!";
+        result.textContent = "Thank you! Your final score is: " + correct_answers + " / 20 ";
       }
       elem.appendChild(result);
     }
